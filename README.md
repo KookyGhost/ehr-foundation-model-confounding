@@ -1,4 +1,4 @@
-**Writeup:** [What an EHR Foundation Model Adds to Causal Inference, and What It Doesn't]([https://medium.com/your-article-url](https://medium.com/@Uvwxyz/what-a-foundation-model-adds-to-causal-inference-and-what-it-doesnt-60c733cfe109?postPublishedType=repub)) — the narrative version of this analysis, with the reasoning behind each experiment.
+**Writeup:** [What an EHR Foundation Model Adds to Causal Inference, and What It Doesn't](https://medium.com/@Uvwxyz/what-a-foundation-model-adds-to-causal-inference-and-what-it-doesnt-60c733cfe109) — the narrative version of this analysis, with the reasoning behind each experiment.
 
 # Stress-Testing EHR Foundation Models for Confounding Adjustment
 
