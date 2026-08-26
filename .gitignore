@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
+.venv/
+venv/
+
+# Source data / model weights
+EHRSHOT_MEDS/
+clmbr-t-base/
+*.parquet
+*.hdf5
+*.h5
+*.pt
+*.pth
+*.safetensors
+
+# Generated patient-level or analysis intermediates
+confounding_outputs/
+confounding_reproducible_outputs/
+checkpoints/
+*.npy
+*.npz
+*.pkl
+
+# Local logs
+*.log

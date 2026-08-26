@@ -1,0 +1,10 @@
+Method,OOF_AUC,OOF_logloss,Estimate_no_noise,Bias_no_noise,Bias_reduction_pct
+Crude,,,-2.0,3.0,0.0
+Count,0.535,0.677,-2.117,2.883,3.9
+CLMBR,0.64,0.642,-2.431,2.569,14.4
+Naive Hybrid,0.698,0.614,-3.101,1.899,36.7
+Explicit Temporal,0.704,0.606,-3.2057,1.7943,40.1912
+Curated,0.719,0.594,-3.5329,1.4671,51.0967
+Offset Hybrid,0.725,0.59,-3.606,1.394,53.5
+Clinical + Temporal,0.795,0.529,-4.728,0.272,90.9331
+Oracle,0.802,0.521,-4.8835,0.1165,96.1162

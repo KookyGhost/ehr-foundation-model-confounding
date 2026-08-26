@@ -1,0 +1,159 @@
+Analysis,Method,Metric,Value
+Experiment 1: clinical-only,Count,OOF_AUC,0.5575
+Experiment 1: clinical-only,CLMBR,OOF_AUC,0.653
+Experiment 1: clinical-only,Curated,OOF_AUC,0.7898
+Experiment 1: clinical-only,Oracle,OOF_AUC,0.7952
+Experiment 1: clinical-only,Count,OOF_logloss,0.6702
+Experiment 1: clinical-only,CLMBR,OOF_logloss,0.6369
+Experiment 1: clinical-only,Curated,OOF_logloss,0.5353
+Experiment 1: clinical-only,Oracle,OOF_logloss,0.53
+Experiment 1: clinical-only,Crude,Estimate_no_noise,-2.0
+Experiment 1: clinical-only,Count,Estimate_no_noise,-2.2066
+Experiment 1: clinical-only,CLMBR,Estimate_no_noise,-2.5795
+Experiment 1: clinical-only,Curated,Estimate_no_noise,-4.8834
+Experiment 1: clinical-only,Oracle,Estimate_no_noise,-4.9264
+Experiment 1: clinical-only,Crude,Bias_no_noise,3.0
+Experiment 1: clinical-only,Count,Bias_no_noise,2.7934
+Experiment 1: clinical-only,CLMBR,Bias_no_noise,2.4205
+Experiment 1: clinical-only,Curated,Bias_no_noise,0.1166
+Experiment 1: clinical-only,Oracle,Bias_no_noise,0.0736
+Experiment 1: clinical-only,Crude,Bias_reduction_pct,0.0
+Experiment 1: clinical-only,Count,Bias_reduction_pct,6.8867
+Experiment 1: clinical-only,CLMBR,Bias_reduction_pct,19.3167
+Experiment 1: clinical-only,Curated,Bias_reduction_pct,96.1133
+Experiment 1: clinical-only,Oracle,Bias_reduction_pct,97.5467
+Experiment 1: clinical-only,Crude,Mean_estimate_500,-2.0
+Experiment 1: clinical-only,Count,Mean_estimate_500,-2.207
+Experiment 1: clinical-only,CLMBR,Mean_estimate_500,-2.581
+Experiment 1: clinical-only,Curated,Mean_estimate_500,-4.885
+Experiment 1: clinical-only,Oracle,Mean_estimate_500,-4.928
+Experiment 1: clinical-only,Crude,Mean_bias_500,3.0
+Experiment 1: clinical-only,Count,Mean_bias_500,2.793
+Experiment 1: clinical-only,CLMBR,Mean_bias_500,2.419
+Experiment 1: clinical-only,Curated,Mean_bias_500,0.115
+Experiment 1: clinical-only,Oracle,Mean_bias_500,0.072
+Experiment 1: clinical-only,Crude,MC_SD_500,0.093
+Experiment 1: clinical-only,Count,MC_SD_500,0.095
+Experiment 1: clinical-only,CLMBR,MC_SD_500,0.095
+Experiment 1: clinical-only,Curated,MC_SD_500,0.104
+Experiment 1: clinical-only,Oracle,MC_SD_500,0.105
+Experiment 1: clinical-only,Crude,RMSE_500,3.001
+Experiment 1: clinical-only,Count,RMSE_500,2.795
+Experiment 1: clinical-only,CLMBR,RMSE_500,2.421
+Experiment 1: clinical-only,Curated,RMSE_500,0.155
+Experiment 1: clinical-only,Oracle,RMSE_500,0.127
+Experiment 1: clinical-only,Crude,Abs_bias_500,3.0
+Experiment 1: clinical-only,Count,Abs_bias_500,2.793
+Experiment 1: clinical-only,CLMBR,Abs_bias_500,2.419
+Experiment 1: clinical-only,Curated,Abs_bias_500,0.115
+Experiment 1: clinical-only,Oracle,Abs_bias_500,0.072
+Experiment 1: clinical-only,Crude,Bias_reduction_500_pct,0.0
+Experiment 1: clinical-only,Count,Bias_reduction_500_pct,6.879
+Experiment 1: clinical-only,CLMBR,Bias_reduction_500_pct,19.352
+Experiment 1: clinical-only,Curated,Bias_reduction_500_pct,96.176
+Experiment 1: clinical-only,Oracle,Bias_reduction_500_pct,97.592
+Experiment 2: temporal-only,Count,OOF_AUC,0.5325
+Experiment 2: temporal-only,Curated,OOF_AUC,0.5982
+Experiment 2: temporal-only,CLMBR,OOF_AUC,0.5948
+Experiment 2: temporal-only,Explicit Temporal,OOF_AUC,0.7878
+Experiment 2: temporal-only,Oracle,OOF_AUC,0.808
+Experiment 2: temporal-only,Count,OOF_logloss,0.6834
+Experiment 2: temporal-only,Curated,OOF_logloss,0.6568
+Experiment 2: temporal-only,CLMBR,OOF_logloss,0.6572
+Experiment 2: temporal-only,Explicit Temporal,OOF_logloss,0.5335
+Experiment 2: temporal-only,Oracle,OOF_logloss,0.5065
+Experiment 2: temporal-only,Crude,Mean_estimate_500,-2.376
+Experiment 2: temporal-only,Count,Mean_estimate_500,-2.435
+Experiment 2: temporal-only,Curated,Mean_estimate_500,-2.47
+Experiment 2: temporal-only,CLMBR,Mean_estimate_500,-2.651
+Experiment 2: temporal-only,Explicit Temporal,Mean_estimate_500,-4.974
+Experiment 2: temporal-only,Oracle,Mean_estimate_500,-4.963
+Experiment 2: temporal-only,Crude,Mean_bias_500,2.624
+Experiment 2: temporal-only,Count,Mean_bias_500,2.565
+Experiment 2: temporal-only,Curated,Mean_bias_500,2.53
+Experiment 2: temporal-only,CLMBR,Mean_bias_500,2.349
+Experiment 2: temporal-only,Explicit Temporal,Mean_bias_500,0.026
+Experiment 2: temporal-only,Oracle,Mean_bias_500,0.037
+Experiment 2: temporal-only,Crude,MC_SD_500,0.09
+Experiment 2: temporal-only,Count,MC_SD_500,0.091
+Experiment 2: temporal-only,Curated,MC_SD_500,0.092
+Experiment 2: temporal-only,CLMBR,MC_SD_500,0.091
+Experiment 2: temporal-only,Explicit Temporal,MC_SD_500,0.104
+Experiment 2: temporal-only,Oracle,MC_SD_500,0.107
+Experiment 2: temporal-only,Crude,RMSE_500,2.625
+Experiment 2: temporal-only,Count,RMSE_500,2.566
+Experiment 2: temporal-only,Curated,RMSE_500,2.531
+Experiment 2: temporal-only,CLMBR,RMSE_500,2.351
+Experiment 2: temporal-only,Explicit Temporal,RMSE_500,0.107
+Experiment 2: temporal-only,Oracle,RMSE_500,0.113
+Experiment 2: temporal-only,Crude,Abs_bias_500,2.624
+Experiment 2: temporal-only,Count,Abs_bias_500,2.565
+Experiment 2: temporal-only,Curated,Abs_bias_500,2.53
+Experiment 2: temporal-only,CLMBR,Abs_bias_500,2.349
+Experiment 2: temporal-only,Explicit Temporal,Abs_bias_500,0.026
+Experiment 2: temporal-only,Oracle,Abs_bias_500,0.037
+Experiment 2: temporal-only,Crude,Bias_reduction_500_pct,0.0
+Experiment 2: temporal-only,Count,Bias_reduction_500_pct,2.248
+Experiment 2: temporal-only,Curated,Bias_reduction_500_pct,3.582
+Experiment 2: temporal-only,CLMBR,Bias_reduction_500_pct,10.48
+Experiment 2: temporal-only,Explicit Temporal,Bias_reduction_500_pct,99.009
+Experiment 2: temporal-only,Oracle,Bias_reduction_500_pct,98.59
+Experiment 3: mixed clinical + temporal,Count,OOF_AUC,0.535
+Experiment 3: mixed clinical + temporal,CLMBR,OOF_AUC,0.64
+Experiment 3: mixed clinical + temporal,Naive Hybrid,OOF_AUC,0.698
+Experiment 3: mixed clinical + temporal,Explicit Temporal,OOF_AUC,0.704
+Experiment 3: mixed clinical + temporal,Curated,OOF_AUC,0.719
+Experiment 3: mixed clinical + temporal,Offset Hybrid,OOF_AUC,0.725
+Experiment 3: mixed clinical + temporal,Clinical + Temporal,OOF_AUC,0.795
+Experiment 3: mixed clinical + temporal,Oracle,OOF_AUC,0.802
+Experiment 3: mixed clinical + temporal,Count,OOF_logloss,0.677
+Experiment 3: mixed clinical + temporal,CLMBR,OOF_logloss,0.642
+Experiment 3: mixed clinical + temporal,Naive Hybrid,OOF_logloss,0.614
+Experiment 3: mixed clinical + temporal,Explicit Temporal,OOF_logloss,0.606
+Experiment 3: mixed clinical + temporal,Curated,OOF_logloss,0.594
+Experiment 3: mixed clinical + temporal,Offset Hybrid,OOF_logloss,0.59
+Experiment 3: mixed clinical + temporal,Clinical + Temporal,OOF_logloss,0.529
+Experiment 3: mixed clinical + temporal,Oracle,OOF_logloss,0.521
+Experiment 3: mixed clinical + temporal,Crude,Estimate_no_noise,-2.0
+Experiment 3: mixed clinical + temporal,Count,Estimate_no_noise,-2.117
+Experiment 3: mixed clinical + temporal,CLMBR,Estimate_no_noise,-2.431
+Experiment 3: mixed clinical + temporal,Naive Hybrid,Estimate_no_noise,-3.101
+Experiment 3: mixed clinical + temporal,Explicit Temporal,Estimate_no_noise,-3.2057
+Experiment 3: mixed clinical + temporal,Curated,Estimate_no_noise,-3.5329
+Experiment 3: mixed clinical + temporal,Offset Hybrid,Estimate_no_noise,-3.606
+Experiment 3: mixed clinical + temporal,Clinical + Temporal,Estimate_no_noise,-4.728
+Experiment 3: mixed clinical + temporal,Oracle,Estimate_no_noise,-4.8835
+Experiment 3: mixed clinical + temporal,Crude,Bias_no_noise,3.0
+Experiment 3: mixed clinical + temporal,Count,Bias_no_noise,2.883
+Experiment 3: mixed clinical + temporal,CLMBR,Bias_no_noise,2.569
+Experiment 3: mixed clinical + temporal,Naive Hybrid,Bias_no_noise,1.899
+Experiment 3: mixed clinical + temporal,Explicit Temporal,Bias_no_noise,1.7943
+Experiment 3: mixed clinical + temporal,Curated,Bias_no_noise,1.4671
+Experiment 3: mixed clinical + temporal,Offset Hybrid,Bias_no_noise,1.394
+Experiment 3: mixed clinical + temporal,Clinical + Temporal,Bias_no_noise,0.272
+Experiment 3: mixed clinical + temporal,Oracle,Bias_no_noise,0.1165
+Experiment 3: mixed clinical + temporal,Crude,Bias_reduction_pct,0.0
+Experiment 3: mixed clinical + temporal,Count,Bias_reduction_pct,3.9
+Experiment 3: mixed clinical + temporal,CLMBR,Bias_reduction_pct,14.4
+Experiment 3: mixed clinical + temporal,Naive Hybrid,Bias_reduction_pct,36.7
+Experiment 3: mixed clinical + temporal,Explicit Temporal,Bias_reduction_pct,40.1912
+Experiment 3: mixed clinical + temporal,Curated,Bias_reduction_pct,51.0967
+Experiment 3: mixed clinical + temporal,Offset Hybrid,Bias_reduction_pct,53.5
+Experiment 3: mixed clinical + temporal,Clinical + Temporal,Bias_reduction_pct,90.9331
+Experiment 3: mixed clinical + temporal,Oracle,Bias_reduction_pct,96.1162
+Real Metformin vs sulfonylurea,Curated,OOF_AUC,0.635
+Real Metformin vs sulfonylurea,Curated + Temporal,OOF_AUC,0.648
+Real Metformin vs sulfonylurea,CLMBR,OOF_AUC,0.751
+Real Metformin vs sulfonylurea,Curated + CLMBR Offset,OOF_AUC,0.743
+Real Metformin vs sulfonylurea,Curated,OOF_logloss,0.6064
+Real Metformin vs sulfonylurea,Curated + Temporal,OOF_logloss,0.6067
+Real Metformin vs sulfonylurea,CLMBR,OOF_logloss,0.5845
+Real Metformin vs sulfonylurea,Curated + CLMBR Offset,OOF_logloss,0.5478
+Real Metformin vs sulfonylurea,Curated,Delta_AUC_vs_Curated,0.0
+Real Metformin vs sulfonylurea,Curated + Temporal,Delta_AUC_vs_Curated,0.013
+Real Metformin vs sulfonylurea,CLMBR,Delta_AUC_vs_Curated,0.116
+Real Metformin vs sulfonylurea,Curated + CLMBR Offset,Delta_AUC_vs_Curated,0.108
+Real Metformin vs sulfonylurea,Curated,Logloss_improvement_vs_Curated_pct,0.0
+Real Metformin vs sulfonylurea,Curated + Temporal,Logloss_improvement_vs_Curated_pct,-0.0495
+Real Metformin vs sulfonylurea,CLMBR,Logloss_improvement_vs_Curated_pct,3.6115
+Real Metformin vs sulfonylurea,Curated + CLMBR Offset,Logloss_improvement_vs_Curated_pct,9.6636

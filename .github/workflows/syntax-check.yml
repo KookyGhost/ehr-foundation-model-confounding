@@ -1,0 +1,16 @@
+name: syntax-check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  python-syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile main analysis script
+        run: python -m py_compile ehr_foundation_model_confounding_reproducible.py

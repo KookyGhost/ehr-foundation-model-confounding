@@ -1,0 +1,5 @@
+Method,OOF_AUC,OOF_logloss,Delta_AUC_vs_Curated,Logloss_improvement_vs_Curated_pct
+Curated,0.635,0.6064,0.0,0.0
+Curated + Temporal,0.648,0.6067,0.013,-0.0495
+CLMBR,0.751,0.5845,0.116,3.6115
+Curated + CLMBR Offset,0.743,0.5478,0.108,9.6636
